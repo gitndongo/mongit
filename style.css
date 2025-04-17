@@ -1,0 +1,12 @@
+/* premiere utilisationde cs avec mon emploie du temps */
+body{
+    background-color: blanchedalmond;
+}
+span{
+    text-decoration: underline crimson ;
+}
+table{
+border-collapse: collapse;
+width: 500;
+border: darkmagenta;
+}
