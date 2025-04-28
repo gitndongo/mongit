@@ -1,12 +1,25 @@
-/* premiere utilisationde cs avec mon emploie du temps */
 body{
-    background-color: blanchedalmond;
+    background-color: rosybrown;
+    font-family:Arial, sans-serif ;
 }
-span{
-    text-decoration: underline crimson ;
+p{
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
-table{
-border-collapse: collapse;
-width: 500;
-border: darkmagenta;
+.business-card{
+   margin: auto;
+   margin-top: 50px;
+   padding: 10px;
+   width: 700px;
+    text-align: center;
+    font-size: 16px;
+background-color: aqua;
+}
+.profile-image{
+    width: 500px;
+}
+a:hover{
+ text-decoration: underline, color(srgb red #15ce15 blue);}
+a{
+    text-underline-offset: none;
 }
