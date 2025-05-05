@@ -3,84 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>exercice html</title>
-
+    <title>Document</title>
 </head>
 <body>
-<main>
-    <h1>les exercices html</h1>
- <section>
-    <h2>formulaires</h2>
-    <p>formulaire de commentaire sur l'hotel</p>
-    <form action="mailto:khabanendongo2@gmail.com"> 
-        <fieldset>
-            <legend> personal information</legend>
-            <div>
-                <label for="prenoms" > prenoms</label>
-                <input type="text" id="prenoms" required placeholder="Ex.mouhamed" name="prenoms">
-            </div>
-            <div>
-                <label for="noms">Noms</label>
-                <input type="text" id="noms" name="Noms" placeholder="Ex.Ndongo" required>
-            </div>
-            <div>
-                <label for="age">age</label>
-                <input type="number" id="age" min="3" max="100" name="age" placeholder="18">
-            </div>
-            <div>
-                <label for="email">email</label>
-                <input type="text" id="email" name="email" required type="email" placeholder="Ex.html@gmail.com">
-            </div>
-        </fieldset>
-        <fieldset>
-            <legend>etait ce votre premier foi dans notre hotel ?</legend>
-            <div>
-                <label for="yes-option">yes</label>
-                <input type="radio" id="yes-option" name="hotel-stay">
-                <label for="no-option">no</label>
-                <input type="radio" id="no-option" name="hotel-stay">
-            </div>
-        </fieldset>
-        <fieldset>
-            <legend>pourquoi avez vous choisi de sejourner dans notre hotel ? </legend>
-            <p>s'il vous plais remplissez au moin une case </p>
-                <label for="Social">pub des reseaux sociaux</label>
-                <input type="checkbox" name="Social" id="Social" value="Social">
-                <label for="perso">recommendation personnelle</label>
-                <input type="checkbox" name="perso" id="perso" value="perso">
-                <label for="reputation">reputation</label>
-                <input type="checkbox" name="reputation" id="reputation" value="reputation" checked>
-                <label for="price">price</label>
-                <input type="checkbox" name="price" id="price" value="price" >
-        </fieldset>
-        <fieldset>
-            <legend>notes</legend>
-            <label for="service">comment etait le service ?</label>
-            <select name="service" id="service">
-                <option value="poor">Poor</option>
-                <option value="satisfactory">Satisfactory</option>
-                <option value="good">Good</option>
-                <option value="very-good">Very Good</option>
-                <option selected value="excellent">Excellent</option>
-              </select>
-              <label for="cuisine">Cuisine</label>
-              <select name="cuisine" id="cuisine">
-                <option value="poor">Poor</option>
-                <option value="satisfactory">Satisfactory</option>
-                <option value="good">Good</option>
-                <option value="very-good">Very Good</option>
-                <option selected value="excellent">Excellent</option>
-              </select>
-        </fieldset>
-            <label for="autres">autres commentaires</label>
-            <textarea name="autres" id="autres" rows="10" cols="39" ></textarea> 
-            <button type="submit">envoyer</button>       
-        </form>
-        <p>merci a chatgpt de m'avoir aider </p>
-    
-
- </section>
-</main>
-    
+<!-- bsubdnjdnknnennnkdnkdejb -->
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe Menu</title>
+    <link href="styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="menu">
+      <main>
+        <h1>CAMPER CAFE</h1>
+        <p class="established">Est. 2020</p>
+        <hr>
+        <section>
+          <h2>Coffee</h2>
+          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon"/>
+          <article class="item">
+            <p class="flavor">French Vanilla</p><p class="price">3.00</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Caramel Macchiato</p><p class="price">3.75</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Hazelnut</p><p class="price">4.00</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Mocha</p><p class="price">4.50</p>
+          </article>
+        </section>
+        <section>
+          <h2>Desserts</h2>
+          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon"/>
+          <article class="item">
+            <p class="dessert">Donut</p><p class="price">1.50</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cherry Pie</p><p class="price">2.75</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cheesecake</p><p class="price">3.00</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cinnamon Roll</p><p class="price">2.50</p>
+          </article>
+        </section>
+      </main>
+      <hr class="bottom-line">
+      <footer>
+        <address>
+          <p>
+            <a href="https://www.freecodecamp.org" target="_blank">Visit our website</a>
+          </p>
+          <p class="address">123 Free Code Camp Drive</p>
+        </address>
+      </footer>
+    </div>
+  </body>
+</html>
 </body>
 </html>
