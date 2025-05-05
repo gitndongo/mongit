@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
     font-family: sans-serif;
@@ -98,3 +99,30 @@ body {
   a:active {
     color: brown;
   }
+=======
+body{
+    background-color: rosybrown;
+    font-family:Arial, sans-serif ;
+}
+p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.business-card{
+   margin: auto;
+   margin-top: 50px;
+   padding: 10px;
+   width: 700px;
+    text-align: center;
+    font-size: 16px;
+background-color: aqua;
+}
+.profile-image{
+    width: 500px;
+}
+a:hover{
+ text-decoration: underline, color(srgb red #15ce15 blue);}
+a{
+    text-underline-offset: none;
+}
+>>>>>>> cb4971a5c2299e509f42d592c73e3be4f8b68d22
